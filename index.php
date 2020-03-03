@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-ph">
+<head>
+<title>Personal Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<section class="masthead">
+          <ul id="scene" class="scene h-100 w-100" data-stellar-ratio=".2">
+                <li class="layer" data-depth=".2">
+                    <div class="inner-parallax" style="background-image: url('assets/memphis-bg-tp.png');"></div>
+                </li>
+            </ul>
+
+            <div class="container">
+              <h1 class="title-main-home">HI! I'M,<br>LESTER JOHN</h1>
+              <div id="app" style="margin-bottom: 20px; font-size: 25px; font-family: 'Nunito', sans-serif;"></div>
+              <!-- <p class="subtitle-main-home ff-nunito">My website is currently under development.</p> -->
+              <div class="btn-link-home ff-nunito ff-extrabold">
+                <a class="btn btn-primary btn-email" href="mailto:lesterjohnpulanco@gmail.com">DROP AN EMAIL</a> <a class="btn btn-success btn-view" href="lj cv-compressed.pdf" target="_blank">VIEW MY CV</a>
+              </div>
+            
+            </div>
+
+           
+</section>
+
+</body>
+
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="assets/core.js"></script>
+<script type="text/javascript">
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+
+    var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Hello World!')
+    .pauseFor(1000)
+    .deleteAll()
+    .typeString('My website is currently under re-development.')
+    .pauseFor(1000)
+    .deleteAll()
+    .typeString('Drop an email instead!')
+    .pauseFor(1000)
+    .start();
+
+</script>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,800,900&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#scene {
+  position: absolute;
+  top:0;
+  display: block!important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.layer img{
+  max-width: 100%;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.inner-parallax {
+  position: absolute;
+ left:0;
+ right:0;
+ top:0;
+ bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+  background-size: cover;
+}
+
+.masthead {
+  background-image: url('assets/base-ps.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.masthead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.title-main-home {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  color: #093b58;
+}
+
+.btn-email {
+  background: #093b58;
+  border: none;
+  padding: 10px 15px;
+}
+
+.btn-email:hover,
+.btn-email:focus,
+.btn-email:active {
+  background: #062536;
+}
+
+.btn-view {
+  background: #b0d231;
+  border: none;
+  padding: 10px 15px;
+}
+
+.btn-view:hover {
+  background: #809c18;
+}
+
+.ff-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+.ff-extrabold {
+  font-weight: 800;
+}
+
+
+
+@media screen and (min-width:320px) {
+  .title-main-home {
+    font-size: 30px;
+  }
+
+  .subtitle-main-home {
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .title-main-home {
+    font-size: 40px;
+  }
+
+  .subtitle-main-home {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (min-width:968px) {
+  .title-main-home {
+    font-size: 50px;
+  }
+  .subtitle-main-home {
+    font-size: 20px;
+  }
+}
