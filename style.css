@@ -68,6 +68,12 @@ body {
   color: #093b58;
 }
 
+.btn-behance {
+  background: #054eff;
+  border: none;
+  padding: 10px 15px;
+}
+
 .btn-email {
   background: #093b58;
   border: none;
@@ -131,4 +137,5 @@ body {
   .subtitle-main-home {
     font-size: 20px;
   }
+
 }
