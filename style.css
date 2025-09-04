@@ -47,7 +47,7 @@ body {
 }
 
 .masthead {
-  background-image: url('assets/base-ps.png');
+  background-image: url('assets/base-bg.png');
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -139,3 +139,4 @@ body {
   }
 
 }
+
