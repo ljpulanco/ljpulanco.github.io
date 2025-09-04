@@ -20,7 +20,7 @@
             </ul>
 
             <div class="container">
-              <h1 class="title-main-home">HI! I'M,<br>LESTER JOHN</h1>
+              <h1 class="title-main-home">HI! I'M,<br>LESTER JOHN PULANCO</h1>
               <div id="app" style="margin-bottom: 20px; font-size: 25px; font-family: 'Nunito', sans-serif;"></div>
               <!-- <p class="subtitle-main-home ff-nunito">My website is currently under development.</p> -->
               <div class="btn-link-home ff-nunito ff-extrabold">
@@ -48,21 +48,24 @@
 
     var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+    var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 30,        // smaller number = faster typing
+        deleteSpeed: 15   // faster deleting
+    });
 
-typewriter.typeString('Hello World!')
-    .pauseFor(1000)
-    .deleteAll()
-    .typeString('My website is currently under re-development.')
-    .pauseFor(1000)
-    .deleteAll()
-    .typeString('Drop an email instead!')
-    .pauseFor(1000)
-    .start();
-
+    typewriter
+        .typeString('Hello World! I craft beautiful websites and develop them')
+        .pauseFor(800)
+        .deleteAll()
+        .typeString('Please hire me!')
+        .pauseFor(800)
+        .deleteAll()
+        .typeString('Let’s build something amazing together.')
+        .pauseFor(1000)
+        .start();
 </script>
+
 
 
 
